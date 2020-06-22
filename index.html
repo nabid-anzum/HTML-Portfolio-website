@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nabid anzum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="brand"></div>
+                    <div>NABID ANZUM</div>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div class="portfolio-items-wrapper">
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/profile1.jpg)"></div>
+                    <div class="image-text-wrapper">
+                        <div class="subtitile">
+                            I am happiest when I’m right next to you.
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/profile2.jpg)"></div>
+                    <div class="image-text-wrapper">
+                        <div class="subtitile">
+                            Lets bike around the earth.
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/portfolio1.jpg)"></div>
+                    <div class="image-text-wrapper">
+                        <div class="subtitile">
+                            Be smart, code smart.
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/profile3.jpg)"></div>
+                    <div class="image-text-wrapper">
+                        <div class="subtitile">
+                            My workstation.
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/profile4.jpg)"></div>
+                    <div class="image-text-wrapper">
+                        <div class="subtitile">
+                            My night has become a sunny dawn because of you.
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/profile5.jpg)"></div>
+                    <div class="image-text-wrapper">
+                        <div class="subtitile">
+                            The best thing to hold onto in life is each other.
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/profile6.jpg)"></div>
+                    <div class="image-text-wrapper">
+                        <div class="subtitile">
+                            You may hold my hand for a while, but you hold my heart forever.
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/profile7.jpg)"></div>
+                    <div class="image-text-wrapper">
+                        <div class="subtitile">
+                            I need you like a heart needs a beat.
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/profile8.jpg)"></div>
+                    <div class="image-text-wrapper">
+                        <div class="subtitile">
+                            Through glasses, through hearts.
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/profile9.jpg)"></div>
+                    <div class="image-text-wrapper">
+                        <div class="subtitile">
+                            Your love is all I need to feel complete.
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/profile10.jpg)"></div>
+                    <div class="image-text-wrapper">
+                        <div class="subtitile">
+                            Personal photography.
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/profile11.jpg)"></div>
+                    <div class="image-text-wrapper">
+                        <div class="subtitile">
+                            Most beautiful flower.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            portfolioItem.childNodes[1].classList.add('igm-darken');
+        })
+        portfolioItem.addEventListener('mouseout', () => {
+            portfolioItem.childNodes[1].classList.remove('igm-darken');
+        })
+    })
+</script>
+</html>
