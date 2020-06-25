@@ -8,3 +8,7 @@ here are some of the screanshots
 <img src="images/ss1.png">
 <img src="images/ss3.png">
 <img src="images/ss2.png">
+
+<br>
+here are the screanshots of 'about' page<br>
+<img src="images/ss2.png">
