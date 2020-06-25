@@ -11,4 +11,4 @@ here are some of the screanshots
 
 <br>
 here are the screanshots of 'about' page<br>
-<img src="images/ss2.png">
+<img src="images/ss4.png">
